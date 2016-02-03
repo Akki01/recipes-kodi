@@ -48,6 +48,10 @@ EXTRA_OECONF = " \
         --disable-vdpau \
 "
 
+EXTRA_OECONF_append_vusolo4k = " \
+        --extra-cflags=' -march=armv7-a -mfloat-abi=hard -mfpu=neon -mtune=cortex-a15' \
+"
+
 do_configure() {
     cd ${S}
         ./configure ${EXTRA_OECONF}
