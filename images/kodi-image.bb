@@ -9,7 +9,7 @@ IMAGE_INSTALL += "enigma2-plugin-softcams-oscam \
 	enigma2-plugin-extensions-xmltvimport \
 	enigma2-plugin-extensions-autotimer \
 	enigma2-plugin-extensions-moviecut \
-	xbmc \
+	kodi \
 	enigma2-plugin-extensions-subssupport \
 	enigma2-plugin-extensions-kodi \
 	"
